@@ -417,7 +417,6 @@
   revision = "6db15a15d2d3874a6c3ddb2140ac9f3bc7058428"
 
 [[projects]]
-  branch = "release-1.12"
   digest = "1:2ca8380c7231278aa7f36951ae1b7e5f7ca97514c6a946026d15aed470f4ab95"
   name = "k8s.io/apimachinery"
   packages = [
@@ -463,10 +462,10 @@
   ]
   pruneopts = "UT"
   revision = "01f179d85dbce0f2e0e4351a92394b38694b7cae"
+  version = "kubernetes-1.12.6"
 
 [[projects]]
-  branch = "release-9.0"
-  digest = "1:0f6001a0fadd91603628ca2af30118bdbc19edf4cf79acdf198005ab6faf0af9"
+  digest = "1:1932a9e0ed36aa1be7d8b4464cc34dbd51e1a10a07dfb69026ae500856d9f3cb"
   name = "k8s.io/client-go"
   packages = [
     "discovery",
@@ -531,7 +530,8 @@
     "util/retry",
   ]
   pruneopts = "UT"
-  revision = "77e032213d34c856222b4d4647c1c175ba8d22b9"
+  revision = "1638f8970cefaa404ff3a62950f88b08292b2696"
+  version = "v9.0.0"
 
 [solve-meta]
   analyzer-name = "dep"

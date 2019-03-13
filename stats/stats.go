@@ -46,18 +46,18 @@ func RegisterHeapDumper(filePath string) {
 			if _, err := os.Stat(filePath); err == nil {
 				err = os.Remove(filePath)
 				if err != nil {
-					log.Warnf("could not delete heap profile file: ", err)
+					log.Warnf("could not delete heap profile file: %q", err)
 					return
 				}
 			}
 			f, err := os.Create(filePath)
 			if err != nil {
-				log.Warnf("could not create heap profile file: ", err)
+				log.Warnf("could not create heap profile file: %q", err)
 				return
 			}
 
 			if err := pprof.WriteHeapProfile(f); err != nil {
-				log.Warnf("could not write heap profile: ", err)
+				log.Warnf("could not write heap profile: %q", err)
 				return
 			} else {
 				log.Infof("dumped heap profile to %s", filePath)

@@ -450,7 +450,7 @@
   version = "kubernetes-1.13.4"
 
 [[projects]]
-  digest = "1:03e2aa6c72ffa2c76b29ff19e15abe72e90229449e296b6d851bdbb4ff03afc9"
+  digest = "1:b18fcf63f3d9d2fd4eacd60b60e96faf0efdf2e455e44b37186b41464959a28e"
   name = "k8s.io/client-go"
   packages = [
     "discovery",
@@ -516,8 +516,8 @@
     "util/retry",
   ]
   pruneopts = "UT"
-  revision = "e64494209f554a6723674bd494d69445fb76a1d4"
-  version = "v10.0.0"
+  revision = "6e4752048fde21176ab35eb54ec1117359830d8a"
+  version = "kubernetes-1.13.3"
 
 [[projects]]
   digest = "1:72fd56341405f53c745377e0ebc4abeff87f1a048e0eea6568a20212650f5a82"
